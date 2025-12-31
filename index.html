@@ -72,6 +72,23 @@
       border-left: 5px solid #3b82f6;
       margin: 15px 0;
     }
+  .footer-instagram {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-instagram img {
+  width: 26px;
+  height: 26px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer-instagram:hover img {
+  transform: scale(1.2);
+  filter: brightness(1.4);
+}
+  
   </style>
 </head>
 <body><header>
@@ -143,12 +160,11 @@
 </section></main><footer>
   <p>Apostila de Campo Harmônico | Projeto Studio WLB © 2025</p>
 <p>
-    Instagram:
     <a href="https://www.instagram.com/projeto_studio_wlb?igsh=YjNiaGQyaDJ0ZXYy"
        target="_blank"
        rel="noopener noreferrer"
-       style="color:#ffffff; text-decoration:underline;">
-      @projeto_studio_wlb
+       class="footer-instagram">
+      <img src="instagram.png" alt="Instagram Projeto Studio WLB">
     </a>
   </p>
 
